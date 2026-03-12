@@ -10,7 +10,7 @@ A graphical user interface (GUI) allows users to interact with the operating sys
 ## Why use a shell?
 Using a shell can be more efficient and powerful than using a graphical user interface (GUI) for certain tasks. It allows users to automate repetitive tasks, manage files and processes more effectively, and access advanced features of the operating system that may not be available through a GUI. Additionally, <b>many servers and remote systems do not have a GUI, making the shell the primary way to interact with them</b> <i>eg., connecting to a remote server via SSH such as EC2 instances on AWS, Google Cloud instances, even your local development environment used as a terminal.</i>
 
-`mermaid
+```mermaid
 graph TD
     A|GUI| --> B|User-Friendly|
     A --> C|Visual Elements|
@@ -23,12 +23,12 @@ graph TD
     F --> K|Access Advanced Features|
     L|Servers and Remote Systems| --> M|No GUI|
     M --> N|Primary Interaction through Shell|
-`
+```
 
 ## shell vs terminal
 A terminal is a program that provides a text-based interface for interacting with the shell. It allows users to enter commands and view the output. The shell, on the other hand, is the program that processes the commands entered in the terminal and executes them. In other words, the <i>terminal</i> is the <b>interface</b>, while the <i>shell</i> is the <b>command processor</b>.
 
-`mermaid
+```mermaid
 graph TD
     A[Terminal] --> B[Text-Based Interface]
     A --> C[Enter Commands]
@@ -37,7 +37,7 @@ graph TD
     E --> G[Execute Commands]
     A --> H[Interface for Shell]
     E --> I[Command Processor]
-`
+```
 
 ## Common Shells
 There are several popular shells available, including:
