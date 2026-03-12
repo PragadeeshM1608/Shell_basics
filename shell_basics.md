@@ -72,6 +72,7 @@ Most shells provide a command history feature that allows users to recall and re
 
 ```bash# Example of creating an alias in Bash
 alias ll='ls -la'`
+```
 
 ## Automation and Scripting
 One of the key advantages of using a shell is the ability to automate tasks through scripting. Shell scripts are text files that contain a series of commands that can be executed together. This allows users to automate repetitive tasks, such as backups, system maintenance, and data processing. Shell scripting can save time and reduce the likelihood of errors by allowing users to create reusable scripts for common tasks. <i> For example, cron jobs can also be used to schedule shell scripts to run at specific times or intervals, further enhancing automation capabilities.</i>
