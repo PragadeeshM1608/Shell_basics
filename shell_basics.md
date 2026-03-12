@@ -5,7 +5,7 @@ A shell is a <u>command-line interface</u> that allows users to interact with th
 
 ## GUI vs CLI
 A graphical user interface (GUI) allows users to interact with the operating system through visual elements such as windows, icons, and menus. In contrast, a command-line interface (CLI) allows users to interact with the operating system by typing commands into a terminal or console. While GUIs are often more user-friendly and easier to learn for beginners, CLIs can be more powerful and efficient for experienced users, especially when it comes to automating tasks and managing large amounts of data.
-![GUI vs CLI](C:\Users\vscode\shell\illustrations\Your paragraph text.png)
+![GUI vs CLI](https://github.com/PragadeeshM1608/Shell_basics/blob/main/illustrations/Your%20paragraph%20text.png)
 
 ## Why use a shell?
 Using a shell can be more efficient and powerful than using a graphical user interface (GUI) for certain tasks. It allows users to automate repetitive tasks, manage files and processes more effectively, and access advanced features of the operating system that may not be available through a GUI. Additionally, <b>many servers and remote systems do not have a GUI, making the shell the primary way to interact with them</b> <i>eg., connecting to a remote server via SSH such as EC2 instances on AWS, Google Cloud instances, even your local development environment used as a terminal.</i>
