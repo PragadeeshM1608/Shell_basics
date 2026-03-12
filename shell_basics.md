@@ -12,17 +12,17 @@ Using a shell can be more efficient and powerful than using a graphical user int
 
 `mermaid
 graph TD
-    A[GUI] --> B[User-Friendly]
-    A --> C[Visual Elements]
-    B --> D[Easy to Learn]
-    C --> E[Windows, Icons, Menus]
-    F[CLI] --> G[Powerful]
-    F --> H[Efficient]
-    G --> I[Automate Tasks]
-    H --> J[Manage Files and Processes]
-    F --> K[Access Advanced Features]
-    L[Servers and Remote Systems] --> M[No GUI]
-    M --> N[Primary Interaction through Shell]
+    A|GUI| --> B|User-Friendly|
+    A --> C|Visual Elements|
+    B --> D|Easy to Learn|
+    C --> E|Windows, Icons, Menus|
+    F|CLI| --> G|Powerful|
+    F --> H|Efficient|
+    G --> I|Automate Tasks|
+    H --> J|Manage Files and Processes|
+    F --> K|Access Advanced Features|
+    L|Servers and Remote Systems| --> M|No GUI|
+    M --> N|Primary Interaction through Shell|
 `
 
 ## shell vs terminal
