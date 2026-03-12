@@ -11,7 +11,7 @@ A graphical user interface (GUI) allows users to interact with the operating sys
 Using a shell can be more efficient and powerful than using a graphical user interface (GUI) for certain tasks. It allows users to automate repetitive tasks, manage files and processes more effectively, and access advanced features of the operating system that may not be available through a GUI. Additionally, <b>many servers and remote systems do not have a GUI, making the shell the primary way to interact with them</b> <i>eg., connecting to a remote server via SSH such as EC2 instances on AWS, Google Cloud instances, even your local development environment used as a terminal.</i>
 
 ```mermaid
-`graph TD
+graph TD
     A[Shell] --> B[Automate Tasks]
     A --> C[Manage Files and Processes]
     A --> D[Access Advanced Features]
